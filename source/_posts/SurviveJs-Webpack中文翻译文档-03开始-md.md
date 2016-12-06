@@ -52,7 +52,7 @@ npm init -y # -y generates *package.json*, skip for more control
 
 
 ## 安装Webpack
-虽然Webpack可以全局安装（```npm install -g```）,但还是建议作为一个单独的依赖维护在项目中。这样将避免后期你将使用其它版本的Webpack是所引起的不兼容。
+虽然Webpack可以全局安装（`npm install -g`）,但还是建议作为一个单独的依赖维护在项目中。这样将避免后期你将使用其它版本的Webpack是所引起的不兼容。
 
 这种方式在**持续集成－Continuous Integration (CI)**配置中也很好用。持续集成系统可以安装本地依赖，使用依赖编译项目，然后将结果更新到服务器。
 
@@ -60,7 +60,7 @@ npm init -y # -y generates *package.json*, skip for more control
 ```
 npm i webpack --save-dev # or just -D if you want to save typing
 ```
-安装技术后你将在你的pakage.json文件中的```devDependencies```里面看到Webpack的版本信息。除了将模块包安装到了node_modules文件夹中，npm也创建了一个可执行程序。
+安装技术后你将在你的pakage.json文件中的`devDependencies`里面看到Webpack的版本信息。除了将模块包安装到了node_modules文件夹中，npm也创建了一个可执行程序。
 
 ## 执行Webpack
 在终端中输入：
@@ -92,7 +92,7 @@ Options:
   --output-file      
   --output-chunk-file              
 ```
->使用```--save```和```--save-dev```将应用依赖和开发依赖分开。前者将信息写在pakage.json文件中的```dependencies```中，后者写在```devDependencies```中。
+>使用`--save`和`--save-dev`将应用依赖和开发依赖分开。前者将信息写在pakage.json文件中的`dependencies`中，后者写在`devDependencies`中。
 
 
 ## 目录结构

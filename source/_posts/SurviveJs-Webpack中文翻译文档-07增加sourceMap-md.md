@@ -9,7 +9,8 @@ tags:
   - javascript
 categories: []
 ---
-＃Enabling Sourcemaps
+
+# Enabling Sourcemaps
 为了增强应用排查错误的能力（debuggability），我们对代码（code）和样式表(styling)可以构建源代码追踪（Sourcemaps ）。Sourcemaps可以让你观察到错误到底在哪儿里出现的。Webpack可以创建内联在bundle的Sourcemap或者分离的Sourcemap文件。前者效率高在开发环境中比较用用，后者bundle文件更小，在生产环境使用较多。
 
 ## 在生产环境中使用Sourcemaps
